@@ -3,13 +3,22 @@
     "description": "A race not born for a cold climate, however are more resilient when swimming",
     "loading_priority": 1,
     "type": "origins:multiple",
-    "immune_temp_modifiers": [
-        "cold_sweat:water"
-    ],
-    "attributes": [
-    {
-      "id": "cold_sweat:cold_dampening",
-      "value": -1
+
+    "attributes":  {
+      "type": "origins:attribute",
+        "modifier": {
+            "attribute": "cold_sweat:cold_dampening",
+            "operation": "multiply_total",
+            "value": 1
+        }
+    },
+    "water_cold_immune": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "value": 1.5
+        }
     }
-  ]
+
 }

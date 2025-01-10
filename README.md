@@ -1,5 +1,10 @@
 Realms of Lentrephis
 
+Changelog
+
+1.0.0
++ Initiated Git Repo and established everything below
+
 So far contains 
 + Human Origin (Colonist)
 + Deekin Origin (Colonist)
@@ -32,3 +37,10 @@ Origin Powers that are tied to specific races
 + Scaled
   - Tied to Skaalith
   - Immune to gaining cold from water
+
+
+Work In Progress
++ Test if Skaalith Water Cold Immunity works
++ Add Natives
++ Add Native Powers
++ Add (maybe) an admin race

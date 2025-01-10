@@ -7,25 +7,16 @@
         "type": "origins:attribute",
         "modifier": {
             "attribute": "cold_sweat:heat_dampening",
-            "operation": "addition",
-            "value": 0.75
+            "operation": "multiply_total",
+            "value": -0.75
         },
         "update_health": true
     },
     "fire_immune": {
         "type": "origins:modify_damage_taken",
         "damage_condition": {
-            "type": "origins:or",
-            "conditions": [
-                {
-                    "type": "origins:name",
-                    "name": "inFire"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "onFire"
-                }
-            ]
+            "type": "origins:name",
+            "name": "onFire"
         },
         "modifier": {
             "operation": "multiply_total",
