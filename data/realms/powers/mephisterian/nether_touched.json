@@ -1,0 +1,35 @@
+{
+    "name": "Nether Touched",
+    "description": "The spirit of the nether poisons your blood forevermore, you are less prone to overheating and resistant to fire.",
+    "loading_priority": 1,
+    "type": "origins:multiple",
+    "heat_res": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "cold_sweat:heat_dampening",
+            "operation": "addition",
+            "value": 0.75
+        },
+        "update_health": true
+    },
+    "fire_immune": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "inFire"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "onFire"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -1
+        }
+    }
+}

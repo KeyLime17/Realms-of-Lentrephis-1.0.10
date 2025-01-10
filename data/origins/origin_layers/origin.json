@@ -1,0 +1,12 @@
+{
+    "order": 0,
+    "origins": [
+        "realms:human",
+        "realms:deekin",
+        "realms:veldurn",
+        "realms:enkura",
+        "realms:skaalith"
+    ],
+    "enabled": true,
+    "replace": true
+}

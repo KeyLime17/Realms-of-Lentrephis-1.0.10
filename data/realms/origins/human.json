@@ -1,0 +1,13 @@
+{
+    "name": "Human",
+    "description": "The most common of races, known for their adaptability and ambition. Determined to make their mark upon the world.",
+    "powers": [
+        "realms:mephisterian/human_spirit",
+        "realms:mephisterian/bless_voryndra"
+    ],
+    "icon": {
+        "item": "minecraft:campfire"
+    },
+    "order": 0,
+    "impact": 1
+}

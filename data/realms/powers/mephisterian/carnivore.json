@@ -1,0 +1,29 @@
+{
+    "name": "Carnivore",
+    "description": "Born to primarily consume flesh, however can still eat other foods if desperate.",
+    "loading_priority": 0,
+    "type": "origins:multiple",
+    "meat": {
+        "type": "origins:modify_food",
+        "item_condition": {
+        "type": "origins:meat"
+        },
+        "food_modifier": {
+            "operation": "multiply_total",
+            "value": 0.5,
+            "name": "Increased food points"
+        }
+    },
+    "non_meat": {
+        "type": "origins:modify_food",
+        "item_condition": {
+        "type": "origins:meat",
+        "inverted": true
+        },
+        "food_modifier": {
+            "operation": "multiply_total",
+            "value": -0.5,
+            "name": "Decreased food points"
+        }
+    }
+}

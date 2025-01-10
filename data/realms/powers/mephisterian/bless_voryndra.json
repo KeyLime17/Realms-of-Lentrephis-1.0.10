@@ -1,0 +1,19 @@
+{
+    "name": "Mephisterian",
+    "description": "A colonist from the continent of Mephisteria. Adapted to live through harsh times, they can survive on less food than others.",
+    "loading_priority": 0,
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": "<=",
+        "compare_to": 6
+    },
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:food"
+    },
+    "food_modifier": {
+        "operation": "multiply_total",
+        "value": 0.5,
+        "name": "Increased food points"
+    }
+}

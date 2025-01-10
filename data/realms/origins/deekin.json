@@ -1,0 +1,13 @@
+{
+    "name": "Deekin",
+    "description": "Originally human, until they became cursed in the First Nether Planar war in Mephisteria.",
+    "powers": [
+        "realms:mephisterian/nether_touched",
+        "realms:mephisterian/bless_voryndra"
+    ],
+    "icon": {
+        "item": "minecraft:soul_campfire"
+    },
+    "order": 1,
+    "impact": 1
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Enkura",
+    "description": "A recently created race, they were created by Human Claymancers in an imitation of their image.",
+    "powers": [
+        "realms:mephisterian/clay_skin",
+        "realms:mephisterian/bless_voryndra"
+    ],
+    "icon": {
+        "item": "irons_spellbooks:priest_helmet"
+    },
+    "order": 3,
+    "impact": 2
+}
