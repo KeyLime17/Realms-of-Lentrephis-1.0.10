@@ -51,6 +51,7 @@ Origin Powers that are tied to specific races
 
 Work In Progress
 + Test if Skaalith Water Cold Immunity works
++ Test Ebonreach heritage
 + Finish Blood regen food exhaustion
 + Add Albruns
 + Add Skrigs
