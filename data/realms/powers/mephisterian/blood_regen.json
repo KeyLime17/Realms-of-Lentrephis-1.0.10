@@ -1,0 +1,35 @@
+{
+    "name": "Undefined",
+    "description": "",
+    "loading_priority": 1,
+    "type": "origins:multiple",
+    "blood_regen": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:blood",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 30,
+        "entity_action": [
+            {
+                "type": "origins:heal",
+                "amount": 1
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "*:blood",
+                "change": -1
+            }
+        ]
+    },
+    "blood_exhaustion": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:blood",
+            "comparison": "<",
+            "compare_to": 8
+        },
+    }
+}

@@ -51,6 +51,7 @@ Origin Powers that are tied to specific races
 
 Work In Progress
 + Test if Skaalith Water Cold Immunity works
++ Finish Blood regen food exhaustion
 + Add Albruns
 + Add Skrigs
 + Add (maybe) an admin race
