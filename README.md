@@ -2,7 +2,7 @@ Realms of Lentrephis
 
 Changelog
 
-1.0.0
+1.0.5
 + Initiated Git Repo and established everything below
 
 So far contains 
