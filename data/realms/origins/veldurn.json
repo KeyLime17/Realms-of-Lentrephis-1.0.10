@@ -3,7 +3,7 @@
     "description": "A race of people born in the undercities of Mephisteria, known as Ebonreach.",
     "powers": [
         "realms:mephisterian/cavern_diet",
-        "realms:mephisterian/bless_voryndra"
+        "realms:mephisterian/ebonreach_heritage"
     ],
     "icon": {
         "item": "endrem:black_eye"

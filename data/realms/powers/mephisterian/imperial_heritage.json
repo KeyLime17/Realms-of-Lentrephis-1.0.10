@@ -1,6 +1,6 @@
 {
-    "name": "Mephisterian",
-    "description": "A colonist from the continent of Mephisteria. Adapted to live through harsh times, they can survive on less food than others.",
+    "name": "Imperial Heritage",
+    "description": "A colonist from the Imperial Provinces of Mephisteria. Adapted to live through harsh times, they can survive on less food than others.",
     "loading_priority": 0,
     "condition": {
         "type": "origins:food_level",

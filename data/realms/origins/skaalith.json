@@ -1,10 +1,10 @@
 {
     "name": "Skaalith",
-    "description": "A race of scaled and cold-blooded people, they evolved on a carnivorous lifestyle and tend to leave near the coasts or in swamps.",
+    "description": "A race of scaled and cold-blooded people, they evolved on a carnivorous lifestyle and tend to leave near the heatvents of below or in sun-baked lands.",
     "powers": [
         "realms:mephisterian/carnivore",
         "realms:mephisterian/scaled",
-        "realms:mephisterian/bless_voryndra"
+        "realms:mephisterian/ebonreach_heritage"
     ],
     "icon": {
         "item": "cold_sweat:chameleon_molt"

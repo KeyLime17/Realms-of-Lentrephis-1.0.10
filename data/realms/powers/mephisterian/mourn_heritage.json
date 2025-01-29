@@ -1,0 +1,12 @@
+{
+    "name": "Mourn-bay Heritage",
+    "description": "A native to Mourn-bay, the frozen province in the north of Mephisteria. This land is bleak and cold, but their natives were able to adapt to the harsh conditions.",
+    "loading_priority": 0,
+    "type": "origins:attribute",
+        "modifier": {
+            "attribute": "cold_sweat:heat_dampening",
+            "operation": "multiply_total",
+            "value": -0.25
+        },
+        "update_health": true
+}

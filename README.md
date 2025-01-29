@@ -6,16 +6,26 @@ Changelog
 + Initiated Git Repo and established everything below
 
 So far contains 
-+ Human Origin (Colonist)
-+ Deekin Origin (Colonist)
-+ Enkura Origin (Colonist)
-+ Veldurn Origin (Colonist)
-+ Skaalith Origin (Colonist)
++ Imperial Heritage
++ Ebonreach Heritage
++ Mourn-bay Heritage
+
++ Human Origin 
++ Deekin Origin 
++ Enkura Origin 
++ Veldurn Origin 
++ Skaalith Origin 
 
 Origin Powers that are tied to specific races
-+ Mephisterian
-  - Tied to Human, Deekin, Enkura, Veldurn and Skaalith
++ Imperial Heritage
+  - Tied to Human, Deekin and Enkura
   - Provides 50% more food when at 6 or less hunger (3 hunger bars)
++ Ebonreach Heritage
+  - Tied to Veldurn and Skaalith
+  - Provides night vision in light level equal to or below 4
++ Mourn-bay Heritage
+  - Tied to Albrun and Skrigs
+  - Provides 25% cold dampening (get cold 25% slower)
 + Carnivore
   -  Tied to Skaalith
   -  Increases food provided by meat by 50%
@@ -41,6 +51,6 @@ Origin Powers that are tied to specific races
 
 Work In Progress
 + Test if Skaalith Water Cold Immunity works
-+ Add Natives
-+ Add Native Powers
++ Add Albruns
++ Add Skrigs
 + Add (maybe) an admin race

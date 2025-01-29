@@ -3,7 +3,7 @@
     "description": "Originally human, until they became cursed in the First Nether Planar war in Mephisteria.",
     "powers": [
         "realms:mephisterian/nether_touched",
-        "realms:mephisterian/bless_voryndra"
+        "realms:mephisterian/imperial_heritage"
     ],
     "icon": {
         "item": "minecraft:soul_campfire"
