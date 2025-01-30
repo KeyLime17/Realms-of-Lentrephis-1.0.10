@@ -1,0 +1,11 @@
+{
+    "name": "Scavenger",
+    "description": "Your species grew up on scavenging, you can find better loot better than most.",
+    "loading_priority": 1,
+    "type": "origins:attribute",
+        "modifier": {
+                "attribute": "minecraft:generic.luck",
+                "operation": "multiply_total",
+                "value": 1
+            }
+}

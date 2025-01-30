@@ -1,0 +1,13 @@
+{
+    "name": "Albrun",
+    "description": "A race of tall fur covered species, adapted to the tundra of Mephisteria, usually living in small communities within the northern Taiga Forests",
+    "powers": [
+        "realms:mephisterian/scavenger",
+        "realms:mephisterian/mourn_heritage"
+    ],
+    "icon": {
+        "item": "endrem:black_eye"
+    },
+    "order": 5,
+    "impact": 1
+}
