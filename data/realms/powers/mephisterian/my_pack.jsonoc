@@ -1,0 +1,33 @@
+{
+    "meta": {
+        "name": "Pack 1",
+        "id": "my_pack",
+        "pack_format": 6
+    },
+    "powers/": {
+        "blood_regen": {
+            "name": "Undefined",
+            "description": "",
+            "loading_priority": 1,
+            "type": "origins:multiple",
+            "blood_regen_7_8": {
+                "condition": {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:and"
+                        },
+                        {
+                            "type": "origins:and"
+                        }
+                    ]
+                },
+                "type": "origins:modify_healing",
+                "modifier": {
+                    "operation": "multiply_total",
+                    "value": -0.2
+                }
+            }
+        }
+    }
+}

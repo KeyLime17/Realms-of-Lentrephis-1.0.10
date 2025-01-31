@@ -3,27 +3,161 @@
     "description": "",
     "loading_priority": 1,
     "type": "origins:multiple",
-    "blood_regen": {
-        // Temporary Comments
-        // Blood has a 20 point cap
-        // at above 10 points, heal faster,
-        // Healing rates:
-        // Blood | Healing % | Value | If healed 2hp
-        // 6 to 0| 00%       | -1    | 0.0
-        // 07    | 20%       | -0.8  | 0.4
-        // 08    | 40%       | -0.6  | 0.8
-        // 09    | 60%       | -0.4  | 1.2
-        // 10    | 80%       | -0.2  | 1.6
-        // Def   | 100%      | 0     | 2 
-        // 11    | 120%      | 0.2   | 2.4
-        // 12    | 140%      | 0.4   | 2.8
-        // 13    | 160%      | 0.6   | 3.2
-        // 14    | 180%      | 0.8   | 3.6
-        // 15    | 200%      | 1.0   | 4.0
-        // 16    | 220%      | 1.2   | 4.4
-        // 17    | 240%      | 1.4   | 4.8
-        // 18    | 260%      | 1.6   | 5.2
-        // 19    | 280%      | 1.8   | 5.6
-        // 20    | 300%      | 2.0   | 6.0
+    "blood_regen_0_6": {
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.6
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:blood",
+            "comparison": "<=",
+            "compare_to": 6
+        }
+    },
+    "blood_regen_7_8": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 7
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 8
+                }
+            ]
+        },
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.2
+        }
+    },
+    "blood_regen_11_12": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 11
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 12
+                }
+            ]
+        },
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.2
+        }
+    },
+    "blood_regen_13_14": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 13
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 14
+                }
+            ]
+        },
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.4
+        }
+    },
+    "blood_regen_15_16": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 15
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 16
+                }
+            ]
+        },
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.6
+        }
+    },
+    "blood_regen_17_18": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 17
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 18
+                }
+            ]
+        },
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.8
+        }
+    },
+    "blood_regen_19_20": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 19
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:blood",
+                    "comparison": "==",
+                    "compare_to": 20
+                }
+            ]
+        },
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 1
+        }
     }
 }
